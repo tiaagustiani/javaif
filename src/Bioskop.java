@@ -4,7 +4,7 @@ public class Bioskop {
 	public static void main(String[] args)
 			throws Exception{
 		String kode, judul;
-		int tik;
+		int tiket;
 		double total, harga;
 		
 		BufferedReader x = new BufferedReader (new InputStreamReader(System.in));
@@ -15,42 +15,42 @@ public class Bioskop {
 		
 		kode=x.readLine();
 		System.out.print("Masukkan Banyak Tiket yang dibeli : ");
-		tik=Integer.parseInt(x.readLine());
+		tiket=Integer.parseInt(x.readLine());
 		
 		if (kode.equalsIgnoreCase("101")){
-			if (tik >=4){
+			if (tiket >=4){
 				judul = "Spider-Man :No Way Home";
 				harga=48000;
-				total=harga*tik;
+				total=harga*tiket;
 			}
 			else {
 				judul="Spider-Man:No Way Home";
 				harga=50000;
-				total=harga*tik;
+				total=harga*tiket;
 			}
 		}
 		else if (kode.equalsIgnoreCase("102")){
-			if (tik >=4){
+			if (tiket >=4){
 				judul="Yowis Ben:Final";
 				harga=38000;
-				total=harga*tik;
+				total=harga*tiket;
 			}
 			else{
 				judul="Yowis Ben:Final";
 				harga=40000;
-				total=harga*tik;
+				total=harga*tiket;
 			}
 		}
 		else if (kode.equalsIgnoreCase("103")){
-			if (tik >=4){
+			if (tiket >=4){
 				judul="Paw Patrol:The Movie";
 				harga=28000;
-				total=harga*tik;
+				total=harga*tiket;
 			}
 			else {
 				judul="Paw Patrol:The Movie";
 				harga=30000;
-				total=harga*tik;
+				total=harga*tiket;
 			}
 		}
 		else {
