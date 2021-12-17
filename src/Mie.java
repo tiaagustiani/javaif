@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Mie {
 	public static void main (String[] args) {
-		int waktu=10;
+		int waktu=3;
 		boolean mie=true;
 
 		if (mie==true) {
